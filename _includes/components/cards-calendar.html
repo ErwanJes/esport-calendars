@@ -1,0 +1,9 @@
+<div class="card-item">
+  <div>
+    <img src="{{ include.image | relative_url }}" width="80" alt="{{ include.title }} logo" title="{{ include.title }}">
+  </div>
+  <div class="card-item-right">
+    <p class="card-title">{{ include.title }}</p>
+    <a class="btn btn-primary" href="{{ include.url }}">check calendar <img src="{{ "/assets/images/arrow-forward.png" | relative_url }}" width="8" height="12" /></a>
+  </div>
+</div>
